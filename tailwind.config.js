@@ -1,11 +1,20 @@
-/** @type {import('tailwindcss').Config} */
-export default {
-  content: [
-    "./index.html",
-    "./src/**/*.{js,ts,jsx,tsx}",
-  ],
+// tailwind.config.js
+module.exports = {
+  content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      keyframes: {
+        slideFade: {
+          "0%": { transform: "translateY(0%)" },
+          "33%": { transform: "translateY(-33.333%)" },
+          "66%": { transform: "translateY(-66.666%)" },
+          "100%": { transform: "translateY(-100%)" },
+        },
+      },
+      animation: {
+        "slide-fade": "slideFade 50s linear infinite",
+      },
+    },
   },
   plugins: [],
-}
+};

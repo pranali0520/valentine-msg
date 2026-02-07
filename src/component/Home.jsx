@@ -53,7 +53,7 @@ const Home = () => {
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-pink-100 via-rose-100 to-red-100 relative overflow-hidden px-4">
       <div
         ref={cardRef}
-        className="bg-white/80 backdrop-blur-md shadow-xl rounded-2xl p-6 sm:p-8 w-full max-w-sm md:max-w-md lg:max-w-lg text-center border border-rose-200 z-10 relative"
+        className="bg-white/80 backdrop-blur-md shadow-xl rounded-2xl p-6 sm:p-8 w-full max-w-sm md:max-w-md lg:max-w-lg text-center border border-rose-200 z-10 relative px-2"
       >
         <h1 className="text-4xl md:text-5xl font-serif text-rose-900 mb-4">
           ❤️ Hi, Sanil ❤️
@@ -74,7 +74,7 @@ const Home = () => {
         </p>
 
         <h2 className="text-2xl md:text-3xl font-semibold text-pink-500 mb-4">
-          Will you be my Valentine? 💖
+          Will you be my Valentine?
         </h2>
 
         <p className="text-rose-500 text-lg mb-6">
