@@ -6,13 +6,12 @@ module.exports = {
       keyframes: {
         slideFade: {
           "0%": { transform: "translateY(0%)" },
-          "33%": { transform: "translateY(-33.333%)" },
-          "66%": { transform: "translateY(-66.666%)" },
+
           "100%": { transform: "translateY(-100%)" },
         },
       },
       animation: {
-        "slide-fade": "slideFade 50s linear infinite",
+        "slide-fade": "slideFade 70s linear infinite",
       },
     },
   },

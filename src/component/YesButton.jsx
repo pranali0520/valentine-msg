@@ -54,9 +54,9 @@ const YesButton = () => {
           <p className=" text-md sm:text-xl mb-8">
             I’m so lucky to have you in my life 💘
           </p>
-          <p className=" text-lg sm:text-xl mb-8 text-red-600 font-extrabold">
+          {/* <p className=" text-lg sm:text-xl mb-8 text-red-600 font-extrabold">
             I LOVE YOU SANIL
-          </p>
+          </p> */}
           <button
             onClick={() => navigate("/")}
             className="bg-rose-500 hover:bg-rose-600 active:bg-rose-700 text-white px-4 py-2 rounded-full transition duration-300 shadow-md transform hover:scale-110 hover:animate-pulse"
